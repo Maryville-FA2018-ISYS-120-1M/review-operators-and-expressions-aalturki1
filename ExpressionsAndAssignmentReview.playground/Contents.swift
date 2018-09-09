@@ -15,3 +15,24 @@
  
 */
 
+let firstName = "waleed"
+let secondName = "Alex"
+var waleedAge = 23
+var alexAge = 24
+print("alex: hi waleed do you want play a game called running race to see who's the faster, waleed: that's fine for me let's start!")
+let totalmeters = 60
+let gameBegins = 0
+var waleedCurrentMeters = 22
+var alexCurentMeters = 29
+waleedCurrentMeters += 15
+alexCurentMeters += 4
+let waleedFinalResultAsMeters = 60
+let alexFinalResultAsMeters = 58
+let waleedFinalResultAsFeet = Double(waleedFinalResultAsMeters)*(3.28)
+let alexFinalResultAsFeet = Double(alexFinalResultAsMeters)*(3.28)
+print(waleedFinalResultAsFeet)
+print(alexFinalResultAsFeet)
+
+print(" waleed is the winner because he got 10 more pionts from alex that makes the winner by 55 points")
+
+
